@@ -1,0 +1,27 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    run: customer
+  name: customer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: customer
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        run: customer
+    spec:
+      containers:
+      - image: docker.io/sudhakarlanka540/customer-service:latest
+        name: customer
+        ports:
+        - containerPort: 8084
+        resources: {}
+status: {}
+
