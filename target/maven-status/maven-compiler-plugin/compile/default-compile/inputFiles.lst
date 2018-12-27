@@ -1,0 +1,8 @@
+/home/ec2-user/latest/customer-service/src/main/java/com/sample/customer/CustomerServiceApplication.java
+/home/ec2-user/latest/customer-service/src/main/java/com/sample/customer/model/Address.java
+/home/ec2-user/latest/customer-service/src/main/java/com/sample/customer/repository/CustomerRepository.java
+/home/ec2-user/latest/customer-service/src/main/java/com/sample/customer/model/Account.java
+/home/ec2-user/latest/customer-service/src/main/java/com/sample/customer/service/CustomerService.java
+/home/ec2-user/latest/customer-service/src/main/java/com/sample/customer/model/Customer.java
+/home/ec2-user/latest/customer-service/src/main/java/com/sample/customer/serviceimpl/CustomerServiceImpl.java
+/home/ec2-user/latest/customer-service/src/main/java/com/sample/customer/resource/CustomerResource.java
